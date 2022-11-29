@@ -1,0 +1,36 @@
+body{
+    background-image: url(images/nils-leonhardt-Tss1uOMczDg-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+}
+#flexbox{
+    display: flex;
+}
+.col{
+    border-style: solid;
+    border-color: rgb(127, 255, 212);
+    background-color: rgba(127, 255, 212, 0.176);
+    width: 50%;
+    text-align: center;
+    margin-left: 1%;
+    border-radius: 20%;
+    padding-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 2% 5%;
+    margin: 2%;
+    background-color: rgba(127, 255, 212, 0.591);
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+}
